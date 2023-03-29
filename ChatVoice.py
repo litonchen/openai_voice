@@ -1,8 +1,5 @@
-import openai
 import speech_recognition as sr
-import pyttsx3
-import time 
-import openaikey as k
+import pyttsx3,time,openai,time
 
 # Initialize OpenAI API
 openai.api_key = k.api_key
